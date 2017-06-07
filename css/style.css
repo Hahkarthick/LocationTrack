@@ -1,0 +1,41 @@
+body{
+	height: 100vh;
+	background:linear-gradient(to left, #59AACA, #79D3F6); 
+}
+.warpper{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: 600px;
+height: 620px;
+background-color: #fff;
+overflow: hidden;
+border-radius: 5px;
+box-shadow: 0 20px 80px rgba(0, 0, 0, 0.6);
+}
+#userinfo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 20px 80px rgba(0, 0, 0, 0.6);
+}
+#userinfo .info{
+	margin-top:50px;
+
+}
+#userinfo .grp{
+	padding: 10px;
+}
+.submit button{
+	float: right;
+}
